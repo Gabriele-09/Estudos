@@ -10,7 +10,7 @@
 
 <body>
     <div class="campo">
-        <h2 id="titulo">Consulta CEP</h2>
+        <h2 id="titulo">Consultas CEPs</h2>
         <p id="subtitulo">Digite o CEP para encontrar o endereço</p>
         <br>
     </div>
