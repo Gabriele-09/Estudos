@@ -1,10 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+    background-image: linear-gradient(to right,  rgb(208, 230, 227), rgb(9, 145, 145)); 
+
 }
 
-#titulo{
+.form {
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.border {
+    box-shadow: 2px 2px 5px #ccc;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.data {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.data>label {
+    width: 100px;
+    color: rgb(48, 46, 46);
+    display: block;
+
+}
+
+.data>input {
+    border-radius: 5px;
+    outline: 0;
+    width: 80%;
+    height: 25px;
+    padding: 5px;
+
+}
+
+.data>button {
+    background-image: linear-gradient(to left, rgb(8, 68, 83), rgb(9, 145, 145));
+    width: 84%;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    border: 0px;
+    /* padding-top: 2px; */
+
+    /* outline: 0px; */
+}
+
+.btn {
+    /* background-image: linear-gradient(to right, rgb(8, 68, 83), rgb(9, 145, 145)); */
+
+}
+
+.titulo {
+    color: rgb(9, 145, 145);
     font-family: sans-serif;
-    color: fuchsia;
-    margin-left: 7%;
 }
